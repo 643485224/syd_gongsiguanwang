@@ -1,0 +1,418 @@
+/*
+ * @Author: Ryan 
+ * @Date: 2018-07-25 17:18:16 
+ * @Last Modified by: Ryan
+ * @Last Modified time: 2018-08-30 15:09:45
+ */
+#case header {
+    background-image: url(../images/bg-other.png);
+}
+
+.product h1 {
+    /* margin-top: 137px; */
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.pc-solution-module {
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+}
+
+.pc-solution-module h1 {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #398df8;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+.pc-solution-module p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    /* color: #666666; */
+    margin-bottom: 15px;
+    text-indent: 2rem;
+}
+
+.pc-advantage .icon01 i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: cover;
+    margin-bottom: 40px;
+    background-image: url(../images/icon/icon01.png);
+    margin-top: 70px;
+}
+
+.pc-advantage .icon02 i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: cover;
+    margin-bottom: 40px;
+    background-image: url(../images/icon/icon02.png);
+    margin-top: 70px;
+}
+
+.pc-advantage .icon03 i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: cover;
+    margin-bottom: 40px;
+    background-image: url(../images/icon/icon03.png);
+    margin-top: 70px;
+}
+
+.pc-advantage .icon04 i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: cover;
+    margin-bottom: 40px;
+    background-image: url(../images/icon/icon04.png);
+    margin-top: 70px;
+}
+
+.pc-advantage>.container>.row>.col-md-3 {
+    position: relative;
+}
+
+.pc-advantage>.container>.row>.col-md-3 .module-item {
+    padding: 0 18px;
+    background-color: #ffffff;
+    /* border-radius: 4px; */
+    box-sizing: content-box;
+    min-height: 335px;
+}
+
+.pc-advantage>.container>.row .col-md-3 p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    text-align: left
+}
+
+.pc-advantage>.container>.row .col-md-3 span {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    font-size: 56px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 11px;
+    color: #398df8;
+    opacity: .3;
+}
+
+.service p {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.service .col-md-12 {
+    padding: 0;
+}
+
+.service .col-md-12 p {
+    width: 50%;
+    text-indent: 0;
+}
+
+.service .inpatient p {
+    width: 100%;
+    text-indent: 0;
+}
+
+.characteristic {
+    color: #ffffff
+}
+
+.characteristic h1 {
+    font-size: 22px;
+    margin-top: 0;
+    line-height: 30px;
+}
+
+.characteristic p {
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.product {
+    padding-top: 0;
+    /* margin-bottom: 200px; */
+
+}
+
+/* product-2 */
+.product-2 .product-content {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.product-2 .product-content>h1 {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #398df8;
+}
+
+.product-content-module>div>div {
+    box-shadow: 3px 5px 11px 1px rgba(85, 130, 246, 0.33);
+    position: relative;
+    padding: 0 22px 38px;
+    min-height: 500px;
+    background-color: #ffffff;
+}
+
+.product-content-module h2 {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    margin-top: 0;
+}
+
+.product-content-module p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #909090;
+    text-align: left;
+    line-height: 30px;
+}
+
+.product-2 .product-content .col-md-3 i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: cover;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.zonghezhifu i {
+    background-image: url(../images/icon/zonghezhifu.png);
+}
+
+.fenxiankongzhi i {
+    background-image: url(../images/icon/fenxiangkongzhi.png);
+}
+
+.zidongduizhang i {
+    background-image: url(../images/icon/zidongduizhang.png);
+}
+
+.caiwutongji i {
+    background-image: url(../images/icon/caiwutongji.png);
+}
+
+.product-2 .product-content .col-md-3 span {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 56px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 11px;
+    color: #398df8;
+    opacity: .3;
+}
+
+.product-content-module>.col-md-3 {
+    padding: 10px 7px;
+
+}
+
+.product-2 .product-box {
+    background-image: url(../images/bg-xitong.png);
+    background-repeat: no-repeat;
+}
+
+.product-3-1 h1 {
+    /* margin-top: 137px; */
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.product-h2 {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #398df8;
+    margin-bottom: 30px;
+}
+
+.product-p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    /* text-indent: 2rem; */
+}
+
+.product-3-2 {
+    background-image: url(../images/bg-product-content.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.product-3-2 h1 {
+    margin-top: 100px;
+    margin-bottom: 23px;
+    color: #ffffff;
+}
+
+.product-3-3 {
+    background-image: url(../images/bg-product-content.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.product-3-3 h1 {
+    margin-top: 100px;
+    margin-bottom: 23px;
+    color: #ffffff
+}
+
+.product-3-3 h2 {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #ffffff;
+}
+
+.product-3-3 .product-content-module {
+    padding: 0;
+}
+
+.product-3-3 .col-md-1-5 {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.product-3-3 .col-md-1-5 i {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.product-3-3 .col-md-1-5 span {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    /* letter-spacing: 11px; */
+    color: #398df8;
+    opacity: .3;
+}
+
+.product-3-3 .col-md-1-5 h2 {
+    color: #333333;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.product-3-3 .col-md-1-5 p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.product-3-3 .product-content-module>div>div {
+    min-height: 0;
+    padding: 5px;
+
+}
+
+.product-3-3 .col-md-1-5>div {
+    box-shadow: 3px 5px 11px 1px rgba(85, 130, 246, 0.33);
+    position: relative;
+    padding: 10px 10px;
+    min-height: 345px;
+    background-color: #ffffff;
+}
+
+.weixinfuwuhao i {
+    background-image: url(../images/icon/icon-weixin.png);
+}
+
+.zhifubao i {
+    background-image: url(../images/icon/icon-zhifubao.png)
+}
+
+.xitong i {
+    background-image: url(../images/icon/icon-xiotng.png);
+}
+
+.yinhang i {
+    background-image: url(../images/icon/icon-yinhang.png)
+}
+
+.duixiang i {
+    background-image: url(../images/icon/zidongduizhang.png)
+}
+
+.product-3-4 {
+    padding: 121px 0;
+    background-color: #f7f7f7;
+}
+
+.product-3-4 p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.product-3-3-img {
+    padding: 100px 0;
+}
+
+.product-h1 {
+    /* margin-top: 137px; */
+    margin-top: 40px;
+    margin-bottom: 23px;
+}
+
+.product-content span {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    /* letter-spacing: 11px; */
+    color: #398df8;
+    opacity: .3;
+    letter-spacing: 11px;
+}

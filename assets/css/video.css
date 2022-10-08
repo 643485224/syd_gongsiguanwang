@@ -1,0 +1,105 @@
+/*
+ * @Author: Ryan 
+ * @Date: 2018-07-29 20:37:34 
+ * @Last Modified by: Ryan
+ * @Last Modified time: 2018-08-30 15:11:15
+ */
+
+.video-h1 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    color: #333333;
+    margin-top: 100px;
+}
+
+.nav-list .nav>li>a {
+    color: #333333;
+    text-decoration: none;
+    padding: 17px 67px;
+}
+
+.nav-list li.active>a {
+    background-color: #378ef8 !important;
+    color: #ffffff !important
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #378ef8
+}
+
+
+.video-list p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #378ef8;
+    color: #ffffff;
+}
+
+.news-list {
+    margin-bottom: 44px;
+}
+
+.news-list .media {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    border-bottom: 1px solid #dddddd
+}
+
+.news-list .media-heading {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.news-list .media-body {
+    position: relative;
+}
+
+.news-list .media-body p {
+    color: #999999
+}
+
+.news-list .media-body span {
+    position: absolute;
+    bottom: 0;
+    color: #999999;
+}
+
+.container .pagination li a {
+    color: #333333;
+    margin: 0px 15px 15px;
+}
+
+
+.nav-list {
+    margin-bottom: 30px;
+}
+
+.video-h2 {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #999999;
+    margin-top: 6px;
+}
+
+#news_show {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* #news_show p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #999999;
+    text-indent: 2em;
+} */
+
+.pagination li {
+    display: inline;
+}
+
+.pagination .pageTag {
+    display: inline;
+}

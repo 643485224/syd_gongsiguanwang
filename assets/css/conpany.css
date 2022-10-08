@@ -1,0 +1,138 @@
+/*
+ * @Author: Ryan 
+ * @Date: 2018-07-29 14:47:26 
+ * @Last Modified by: Ryan
+ * @Last Modified time: 2018-08-30 15:10:39
+ */
+
+.company-h1 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #333333;
+    margin-top: 100px;
+}
+
+.company-p {
+    margin-top: 46px;
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+    text-indent: 2rem;
+}
+
+.company-ul>li {
+    margin: 20px auto;
+    color: #ffffff;
+
+}
+
+.company-1 {
+    background-image: url(../images/advantage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.company-1-1 {
+    margin-top: 150px;
+}
+
+.company-div {
+    margin-bottom: 100px;
+}
+
+.company-2 .row {
+    margin: auto;
+    padding: 15px;
+}
+
+.company-2 .row>div {
+    padding: 5px;
+}
+
+.company-2 .row>div>div {
+    box-shadow: 3px 5px 11px 1px rgba(85, 130, 246, 0.33);
+    position: relative;
+    padding: 10px 10px;
+    min-height: 345px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.company-2 .row>div>div>h2 {
+    font-family: MicrosoftYaHei-Bold;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #3d8ff8;
+    ;
+    margin: auto;
+    margin-bottom: 38px;
+    margin-top: 103px;
+
+}
+
+.company-2 .row>div>div>p {
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.company-2 .row>div>div>span {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+    font-family: MicrosoftYaHei;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    /* letter-spacing: 11px; */
+    color: #398df8;
+    opacity: .3;
+}
+
+.company-3 {
+    background-color: #f7f7f7;
+}
+
+.company-3 .container {
+    overflow: hidden;
+    position: relative;
+}
+
+.company-3 img:hover {
+    transform: scale(1.4);
+    box-shadow: 1px 2px 26px 2px rgba(57, 141, 248, 0.33);
+}
+
+.swiper-container {
+    overflow: visible;
+}
+
+.swiper-container {
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+}
+
+.honor-swiper {
+    margin-top: 126px;
+    margin-bottom: 202px;
+}
+
+.swiper-container {
+    position: static;
+}
+
+.dropdown-menu {
+    padding: 0;
+}

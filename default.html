@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>欢迎来测试页面</div>
+    <textarea cols="50" rows="40" class="message"></textarea>
+
+    <textarea cols="50" class="AJAX-URL"></textarea>
+    <button class="AJAX-post">发送请求</button>
+    <script src="Script/jquery3.0-min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var _data = {
+                type: "Banner"
+            };
+            var data2 = {
+                ID: "1"
+            };
+            $.ajax({
+                type: 'POST',
+                //url: '/api/Companynews/CompanynewsInsert',
+                url: 'SayedWebSel.asmx/SayedAllSel',
+                dataType: "JSON",
+                data: _data,
+                success: function (respone) {
+                    console.warn(respone);
+                    $('.message').val(JSON.stringify(respone));
+                },
+                error: function (ret, status, error) {
+                    $('.message').val(JSON.stringify(ret));
+                }
+            });
+            $.ajax({
+                type: 'POST',
+                url: 'http://office-kioskhome.com:3695/api/Companynews/CompanynewsSel',
+                //url: 'http://localhost:57038/api/Banner/BannerSel',
+                data: null,
+                success: function (ret, status, xhr) {
+                    console.log(JSON.parse(ret));
+                    $('.AJAX-param').val(JSON.parse(ret));
+                },
+                error: function (ret, status, error) {
+                    console.info(ret);
+                    $('.AJAX-param').val(JSON.stringify(ret));
+                }
+            });
+
+           
+        })
+    </script>
+</body>
+</html>
